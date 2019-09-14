@@ -19,7 +19,6 @@ class TestAppraisalOne:
     def test_appraisal(self):
 
         driver=self.driver
-
         responseStart = driver.execute_script("return window.performance.timing.responseStart")
         filepath="C:/Users/SRIN11081/Desktop/pytest load test_test/pytest load test_test/appraisal_test.xlsx" 
         wb_data = xlrd.open_workbook(filepath)
