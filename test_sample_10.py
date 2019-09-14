@@ -28,7 +28,6 @@ class TestAppraisalOne:
         t_row_element=XLUtils.getRowCountElement(filepath,'Data Elements')
         time_sheet = wb_data.get_sheet_by_name('Inputs')
         sheet_name_Inputs="Inputs"
-        #print("Max Rows for Input :",t_rows_input)
         #print("Max Rows for Data Elements :",t_row_element)
 
         for r in range(2,t_rows_input, 1):
